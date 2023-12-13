@@ -1,8 +1,10 @@
-# Django Oauth Template representation
+# Django OAuth boilerplate Repo
 
 A boilerplate Django (back-end only) repository containing Auth modules. 
+
 Contains a number of popular Authentication/Authorization-related Python packages to allow easier project set-up. 
 Ideal for usage with a separate front-end.
+
 Please refer to individual dependency documentation for creating and using API endpoints, and the views associated with their packages.
 
 ## Installed Dependencies
@@ -19,3 +21,15 @@ Please refer to individual dependency documentation for creating and using API e
 |Pylint-Django|For linting Python Code|Code Format|% pip install pylint pylint-django |https://pypi.org/project/pylint-django/|
 |Black|For cleaning up Python formatting|Code Format|% pip install black|https://pypi.org/project/black/|
 
+## Project installation
+
+1. Fork repo
+
+2. % git init -> % git pull
+
+3. Create virtual environment, and activate:
+% python3 -m venv .venv
+% . .venv/bin/activate
+
+4. install dependencies:
+% pip install -r requirements.txt 
